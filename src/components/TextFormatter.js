@@ -4,7 +4,7 @@ export default class textFormatter extends PureComponent {
   state = {
     text: '',
     formattedText: '',
-    color: 'Black',
+    color: 'black',
     font: 'Big'
   };
   changeHandler = ({ target }) => {
