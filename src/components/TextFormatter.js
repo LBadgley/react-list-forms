@@ -15,11 +15,11 @@ export default class textFormatter extends PureComponent {
     const { text, color, } = this.state;
 
     return (
-      <>
+      <form>
         <input name="text" value={text} onChange={this.changeHandler} />
         <input name="color" type="color" value={color} onChange={this.changeHandler} />
         <p style={{ color: color }}>{text}</p>
-      </>
+      </form>
     );
   }
 }
