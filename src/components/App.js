@@ -1,6 +1,6 @@
 import React from 'react';
-import TextFormatter from './TextFormatter';
+import Sidebar from './Sidebar';
 
 export default function App() {
-  return <TextFormatter />;
+  return <Sidebar />;
 }
