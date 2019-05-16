@@ -4,7 +4,7 @@ import TextFormatter from './TextFormatter';
 
 describe('formatted text test', () => {
   it('renders the formatted text', () => {
-    const wrapper = shallow(<TextFormatter />);
+    const wrapper = shallow(<TextFormatter  />);
     expect(wrapper).toMatchSnapshot();
   });
 });

@@ -3,9 +3,7 @@ import React, { PureComponent } from 'react';
 export default class textFormatter extends PureComponent {
   state = {
     text: '',
-    formattedText: '',
     color: 'black',
-    font: 'Big'
   };
   changeHandler = ({ target }) => {
     this.setState({ [target.name]: target.value });
@@ -16,7 +14,7 @@ export default class textFormatter extends PureComponent {
 
     return (
       <form>
-        <input name="text" value={text} onChange={this.changeHandler} />
+        <input type="text" name="text" value={text} onChange={this.changeHandler} />
         <input name="color" type="color" value={color} onChange={this.changeHandler} />
         <p style={{ color: color }}>{text}</p>
       </form>
