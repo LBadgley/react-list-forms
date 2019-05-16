@@ -2,9 +2,9 @@
 
 exports[`app test renders the app 1`] = `
 <Fragment>
-  <[object Object]>
-    <[object Object] />
-  </[object Object]>
-  <[object Object] />
+  <ErrorBoundary>
+    <Bad />
+  </ErrorBoundary>
+  <Good />
 </Fragment>
 `;
