@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`footer test renders the footer 1`] = `
+<footer
+  className="Footer"
+>
+  <p>
+    by Laura Badgley
+  </p>
+</footer>
+`;

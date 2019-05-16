@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`photo album test photo album renders 1`] = `
+<section
+  className="PhotoAlbum"
+>
+  <h2>
+    Family Photos
+  </h2>
+  <[object Object]
+    photos={
+      Array [
+        "../../assets/calico.jpg",
+        "../../assets/fatGreyTabby.jpg",
+        "../../assets/nebelung.jpg",
+      ]
+    }
+  />
+</section>
+`;
