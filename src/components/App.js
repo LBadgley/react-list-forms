@@ -16,7 +16,7 @@ export default function App() {
   return (
     <>
       <Header />
-      <PhotoAlbum title="Cats" photos={photos} />
+      <PhotoAlbum title="Kids" photos={photos} />
       <Footer />
     </>
   );
