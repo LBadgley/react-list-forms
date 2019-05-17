@@ -7,7 +7,7 @@ exports[`photo album test photo album renders 1`] = `
   <h2>
     Family Photos
   </h2>
-  <[object Object]
+  <Photos
     photos={
       Array [
         "../../assets/calico.jpg",
